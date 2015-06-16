@@ -2,7 +2,10 @@ class Parent(object):
 	def altered(self):
 		print "Parent altered()"
 		
-		
+class Spouse(Parent):
+	def butt(self):
+		print "sucka"
+			
 class Child(Parent):
 
 	def altered(self):
